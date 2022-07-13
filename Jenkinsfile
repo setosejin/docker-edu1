@@ -3,7 +3,7 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
     environment {
         // Global 변수 선언
-        dockerRepo = "setosejin/edu2"
+        dockerRepo = "setosejin/edu1"
         dockerCredentials = 'test4_dockerhub_ci'
         dockerImageVersioned = ""
         dockerImageLatest = ""
